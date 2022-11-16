@@ -17,12 +17,12 @@ print("Successfully deployed!")
 
 async def start(client, message):
     buttons = ButtonMaker()
-    buttons.url_buildbutton("Repo", "https://github.com/Sam-Max/rclone-mirror-leech-telegram-bot")
-    buttons.url_buildbutton("Owner", "https://github.com/Sam-Max")
+    buttons.buildbutton(" 𝓦𝓦𝓜 ", "https://t.me/world_wide_movies")
+    buttons.buildbutton("𝐃𝐞𝐯", "https://t.me/slogan_98")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.user_filter or CustomFilters.chat_filter:
         msg = '''
-**Hello, ¡Welcome to Rclone-Telegram-Bot!\n
+**Hello, ¡contact my Dev before use me:BUY a PLAN!\n
 I can help you copy files from one cloud to another.
 I can also can mirror-leech files and links to Telegram or cloud**\n\n
         '''
