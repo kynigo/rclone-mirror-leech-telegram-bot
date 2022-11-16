@@ -17,8 +17,8 @@ print("Successfully deployed!")
 
 async def start(client, message):
     buttons = ButtonMaker()
-    buttons.buildbutton(" 𝓦𝓦𝓜 ", "https://t.me/world_wide_movies")
-    buttons.buildbutton("𝐃𝐞𝐯", "https://t.me/slogan_98")
+    buttons.buildbutton(" wwm ", "https://t.me/world_wide_movies")
+    buttons.buildbutton("Dev", "https://t.me/slogan_98")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.user_filter or CustomFilters.chat_filter:
         msg = '''
